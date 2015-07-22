@@ -2,13 +2,13 @@
 
 Allow for any object of functions to be chainable.
 
-```
+```bash
 npm install underscore-chainable
 ```
 
 ## Example
 
-```
+```javascript
 var _ = require("underscore")
 _.mixin(require("underscore-chainable"))
 
