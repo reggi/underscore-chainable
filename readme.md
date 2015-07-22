@@ -27,6 +27,8 @@ cat.play = function(energy){
 
 _.extendChainable(cat) // extend the chainablity
 
+// adds `.chain` and `.value`
+
 var energy  = cat.eat("tuna")
 var status = cat.play(energy)
 
